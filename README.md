@@ -7,7 +7,7 @@ This project is a clone of the PayTM application where real-world-like transacti
 
 It demonstrates full-stack development with authentication, database integration, and UI design.
 
-Special Thanks to harkirat sir for this project !
+Special Thanks to harkirat sir for this project ! 🙏
 
   
 ---
@@ -38,11 +38,21 @@ Special Thanks to harkirat sir for this project !
 
   
 
-| Home | Transfer | Transactions | P2P Transfer |
+| Home |
 
-|------|----------|--------------|--------------|
+ ![Home](./screeenshots/Home.png) 
 
-| ![Home](./screeenshots/Home.png) | ![Transfer](./screeenshots/Transfer.png) | ![Transactions](./screeenshots/Transactions.png) | ![P2P Transfer](./screeenshots/Transfer.png) |
+| Transfer | 
+
+ ![Transfer](./screeenshots/Transfer.png) 
+
+| Transactions |
+
+ ![Transactions](./screeenshots/Transactions.png) 
+
+| P2P Transfer |
+
+ ![P2P Transfer](./screeenshots/P2P%20Transfer.png) 
 
   
   
