@@ -42,7 +42,7 @@ Special Thanks to harkirat sir for this project !
 
 |------|----------|--------------|--------------|
 
-| ![Home](./screenshots/home.png) | ![Transfer](./screenshots/transfer.png) | ![Transactions](./screenshots/transactions.png) | ![P2P Transfer](./screenshots/p2p-transfer.png) |
+| ![Home](./screeenshots/Home.png) | ![Transfer](./screeenshots/Transfer.png) | ![Transactions](./screeenshots/Transactions.png) | ![P2P Transfer](./screeenshots/Transfer.png) |
 
   
   
