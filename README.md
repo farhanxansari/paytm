@@ -1,20 +1,107 @@
-- Clone the repo
 
-```jsx
-git clone https://github.com/100xdevs-cohort-2/week-17-final-code
+# PayTM (Clone)
+
+  
+
+This project is a clone of the PayTM application where real-world-like transactions take place.
+
+It demonstrates full-stack development with authentication, database integration, and UI design.
+
+Special Thanks to harkirat sir for this project !
+
+  
+---
+
+  
+
+## 🚀 Tech Stack
+
+-  **Frontend & Backend**: Next.js
+
+-  **Auxiliary Backend**: Express
+
+-  **Monorepo Management**: Turborepo
+
+-  **Database**: PostgreSQL
+
+-  **ORM**: Prisma
+
+-  **Styling**: Tailwind CSS
+
+  
+
+---
+
+  
+
+## 📸 Screenshots
+
+  
+
+| Home | Transfer | Transactions | P2P Transfer |
+
+|------|----------|--------------|--------------|
+
+| ![Home](./screenshots/home.png) | ![Transfer](./screenshots/transfer.png) | ![Transactions](./screenshots/transactions.png) | ![P2P Transfer](./screenshots/p2p-transfer.png) |
+
+  
+  
+  
+
+## ⚙️ Installation & Setup
+
+  
+
+1. Clone the repository
+
+```bash
+
+git clone <https://github.com/farhanxansari/paytm.git>
+
+cd <paytm>
+
 ```
 
-- npm install
-- Run postgres either locally or on the cloud (neon.tech)
+2. Install dependencies
 
-```jsx
-docker run  -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
+```bash
+
+`npm install`
+
 ```
 
-- Copy over all .env.example files to .env
-- Update .env files everywhere with the right db url
-- Go to `packages/db`
-    - npx prisma migrate dev
-    - npx prisma db seed
-- Go to `apps/user-app` , run `npm run dev`
-- Try logging in using phone - 1111111111 , password - alice (See `seed.ts`)
+3. Setup database
+
+- Create a PostgreSQL database
+
+- Update `.env` file with your DB URL
+
+- Run Prisma migrations
+
+```bash
+
+`npx prisma migrate dev`
+
+```
+
+4. Run the development server
+
+```bash
+
+`npm run dev`
+
+```
+
+  
+
+## 📌 Features
+
+  
+
+- User authentication & authorization
+
+- Wallet system with balance tracking
+
+- Transaction history
+
+- Responsive UI
